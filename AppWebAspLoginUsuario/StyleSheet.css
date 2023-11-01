@@ -1,0 +1,64 @@
+﻿body {
+    font-family: "Lato", sans-serif;
+    
+}
+.body-back{
+    background-image: url("imgBody/backgrondAllSections.jpg");
+}
+
+.txtLogin{
+    color:tomato;
+}
+
+.txtEmail {
+    color: tomato;
+}
+
+.txtPassword {
+    color: tomato;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgb(226,100,237);
+    background: linear-gradient(0deg, rgba(226,100,237,1) 61%, rgba(69,252,213,1) 100%);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #ffffff;
+        }
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    justify-content:center
+    font-size: 30px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+.txbEmail{
+    color:aqua
+}
